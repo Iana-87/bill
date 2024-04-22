@@ -1,0 +1,73 @@
+body{
+    background-image: url("https://cdn.glitch.global/95b9cd3d-63af-4c6d-930b-dd4e2f589cff/katie-harp-hJ3YgAf8XjI-unsplash.jpg?v=1686590036558");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color:#606C5D;
+}
+#head{
+    display: flex;
+    justify-content: center;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+ }
+#showTotalAmount{
+    display: flex;
+    justify-content: center;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Inconsolata', monospace;
+        padding: 20px;
+        color:#4C3D3D;
+    }
+    h1{
+        font-family: 'Inconsolata', monospace;
+        color:#606C5D;
+    }
+    input{
+        font-family: 'Inconsolata', monospace;
+        padding: 5px;
+        border-radius: 20px;
+        border: none;
+    }
+    #btn{
+        background-color:#99A98F;
+        padding: 10px;
+        border: none;
+        margin-top: 10px;
+        font-family: 'Inconsolata', monospace;
+        border-radius: 20px;
+    }
+    #btn:hover{
+        background-color:#606C5D ;
+    }
+    #sum{
+        width: 200px;
+        background-color: #99A98F;
+        margin: 10px;
+        font-family: 'Inconsolata', monospace;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    #addPeople{
+        background-color: #99A98F;
+        border-radius: 10px;
+        border: none;
+        padding: 5px;
+        color:#4C3D3D;
+        font-family: 'Inconsolata', monospace;
+    }
+    #people{
+       
+        border: none;
+        padding: 5px;
+        color:#4C3D3D;
+        font-family: 'Inconsolata', monospace;
+        background-color:#C1D0B5;
+        display: none;
+    }

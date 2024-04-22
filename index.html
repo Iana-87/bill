@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utility Bills💸</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="head">
+        <h1>Utility Bills!</h1>
+    </div>
+        <div id="container">
+        <form> 
+            <p>Water Bill</p>
+            <span>
+                $<input type="text" id="water" placeholder="Water Bill">
+            </span>
+            <p>Power Bill</p>
+            <span>
+                $<input type="text" id="power" placeholder="Power Bill">
+            </span>
+            <p>Gas Bill</p>
+            <span>
+                $<input type="text" id="gas" placeholder="Gas Bill">
+            </span>
+            <p>Internet Bill</p>
+            <span>
+                $<input type="text" id="internet" placeholder="Internet Bill">
+            </span>
+
+            <button id="addPeople">How many people?</button>
+            <select id="people">
+               <option disabled>Select an option</option>
+               <option value="4.00">Four</option>
+               <option value="3.00">Three</option>
+               <option value="2.00">Two</option>
+               <option value="1.00" selected>One</option>
+            </select>
+            <br>
+            <button id="btn">Calculate</button>
+        </form>
+        </div>
+   
+<div id="showTotalAmount">
+    <div id="sum">
+        <p>Total</p>
+        <span>$</span>
+        <span class="dividedSum"></span>
+        <span>per person</span>
+    </div>
+</div>
+    
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js" ></script>
+</body>
+</html>
